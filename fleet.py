@@ -1,5 +1,5 @@
 class Fleet:
-    def _init_(self):
+    def __init__(self):
         self.robots = []
     
-    def create_fleet(self):
+    def create_fleet(self): void

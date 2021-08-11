@@ -1,7 +1,11 @@
+from herd import Herd
+from fleet import Fleet
+
+
 class Battlefield:
     def __init__(self):
-        self.fleet = 'Fleet'
-        self.herd = 'Herd'
+        self.fleet = Fleet
+        self.herd = Herd
 
     def run_game(self):void
 
@@ -19,4 +23,4 @@ class Battlefield:
 
     def display_winners(self): void
 
-    
+
