@@ -1,9 +1,15 @@
+from robot import Robot
+from weapon import Weapon
+
 class Fleet:
-    #Constructor
     def __init__(self):
         self.robots = []
-        
-    #Method
-    def create_fleet(self, robo):
-        robo_list =  robo
-        self.robots.append(robo_list)
+        self.create_fleet()
+
+    def create_fleet(self):
+        robot1 = Robot('SlaveBot','Heavy Flamer Gun')
+        robot2 = Robot('Assaultron','Laser Assault Rifle')
+        robot3 = Robot('Behemoth','Heavy Flamer Gun')
+        self.robots.append(robot1)
+        self.robots.append(robot2)
+        self.robots.append(robot3)
