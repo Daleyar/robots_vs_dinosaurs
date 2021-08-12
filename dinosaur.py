@@ -1,7 +1,10 @@
 class Dinosaur:
+    #Constructor
     def __init__(self, name, attack_power):
-        self.name = ''
-        self.attack_power = 0
+        self.name = name
+        self.attack_power = attack_power
         self.health = 200
-    
-    def attack(self, robot): void
+        
+    #Method
+    def attack(self, robot): 
+        pass

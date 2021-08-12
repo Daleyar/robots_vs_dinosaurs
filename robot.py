@@ -1,12 +1,13 @@
 from weapon import Weapon
 
-
 class Robot:
     #Constructor
-    def __init__(self,name):
+    def __init__(self,name,weapon):
         self.name = name
         self.health = 250
-        self.weapon = Weapon
+        self.weapon = weapon
 
     #Method
-    def attack(self,dinosaur):void
+    def attack(self,dinosaur):
+        pass
+
