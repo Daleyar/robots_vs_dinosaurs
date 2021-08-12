@@ -1,10 +1,14 @@
+from dinosaur import Dinosaur
 
 class Herd:
-    #Constructor
     def __init__(self):
         self.dinosaurs = []
+        self.create_herd()
 
-    #Method
-    def create_herd(self, dino): 
-        dino_list = (dino)
-        self.dinosaurs.append(dino_list)
+    def create_herd(self): 
+        dino1 = Dinosaur('Slag', 35)
+        dino2 = Dinosaur('Sludge', 35)
+        dino3 = Dinosaur('Snarl', 35)
+        self.dinosaurs.append(dino1)
+        self.dinosaurs.append(dino2)
+        self.dinosaurs.append(dino3)
